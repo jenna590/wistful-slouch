@@ -4,4 +4,16 @@ html, body {
 }
 canvas {
   display: block;
+  background-color: black;
+}
+h2{
+  font-family: monospace;
+  position: fixed;
+  color: white;
+  bottomw: 15px;
+  text-align: center;
+  width: 100%;
+
+  font-size: 15px;
+
 }
