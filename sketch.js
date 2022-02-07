@@ -39,7 +39,8 @@ function setup() {
 
 function draw() {
   background(c)
-  stroke(255)
+  strokeWeight(2)
+  noFill()
 
   translate(width / 2, height / 2)
 
@@ -75,35 +76,42 @@ function keyTyped(){
     s00.play();
     c = color(255, 0, 0);
 
+
   }
   if (key == '1'){
     s01.play();
     c = color(0, 255, 0);
+
 
   }
   if (key == '2'){
     s02.play();
     c = color(0, 0, 255);
 
+
   }
   if (key == '3'){
     s03.play();
     c = color(255, 0, 255);
+
 
   }
   if (key == '4'){
     s04.play();
     c = color(255, 255, 0);
 
+
   }
   if (key == '5'){
     s05.play();
     c = color(173, 66, 245);
 
+
   }
   if (key == '6'){
     s06.play();
     c = color(245, 150, 66);
+
 
   }
   if (key == '7'){
@@ -115,10 +123,12 @@ function keyTyped(){
     s08.play();
     c = color(245, 96, 66);
 
+
   }
   if (key == '9'){
     s09.play();
     c = color(216, 235, 52);
+
 
   }
 }
