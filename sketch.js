@@ -70,6 +70,10 @@ function draw() {
   endShape()
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 
 function keyTyped(){
   if (key == '0'){
