@@ -23,16 +23,16 @@ function setup() {
   c = color(0, 0, 0);
   background(c);
   fft = new p5.FFT();
-  s00.setVolume(1);
-  s01.setVolume(1);
-  s02.setVolume(1);
-  s03.setVolume(1);
-  s04.setVolume(1);
-  s05.setVolume(1);
-  s06.setVolume(1);
-  s07.setVolume(1);
-  s08.setVolume(1);
-  s09.setVolume(1);
+  s00.setVolume(0.3);
+  s01.setVolume(0.3);
+  s02.setVolume(0.3);
+  s03.setVolume(0.3);
+  s04.setVolume(0.3);
+  s05.setVolume(0.3);
+  s06.setVolume(0.3);
+  s07.setVolume(0.3);
+  s08.setVolume(0.3);
+  s09.setVolume(0.3);
 
 
 }
