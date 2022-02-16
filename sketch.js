@@ -3,16 +3,16 @@ var c;
 var mySound, fft;
 
 function preload(){
-  s00 = loadSound('bubbles.mp3');
-  s01 = loadSound('clay.mp3');
-  s02 = loadSound('confetti.mp3');
-  s03 = loadSound('corona.mp3');
-  s04 = loadSound('dotted-spiral.mp3');
-  s05 = loadSound('flash-1.mp3');
-  s06 = loadSound('flash-2.mp3');
-  s07 = loadSound('flash-3.mp3');
-  s08 = loadSound('glimmer.mp3');
-  s09 = loadSound('strike.mp3');
+  s00 = loadSound('sound0.mp3');
+  s01 = loadSound('sound1.mp3');
+  s02 = loadSound('sound2.mp3');
+  s03 = loadSound('sound3.mp3');
+  s04 = loadSound('sound4.mp3');
+  s05 = loadSound('sound5.mp3');
+  s06 = loadSound('sound6.mp3');
+  s07 = loadSound('sound7.mp3');
+  s08 = loadSound('sound8.mp3');
+  s09 = loadSound('sound9.mp3');
 
 }
 
